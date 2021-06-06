@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mHome"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/mLaptop"
+        android:title="Laptop" />
+    <item
+        android:id="@+id/mPhone"
+        android:title="Điện thoại" />
+    <item
+        android:id="@+id/mTv"
+        android:title="TV" />
+    <item
+        android:id="@+id/mExit"
+        android:title="Thoát" />
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dangtuananh_e17cn2_btlandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DangTuanAnh_E17CN2_BTLAndroid">
+        <activity android:name=".tv.TvListActivity" />
+        <activity android:name=".phone.PhoneListActivity" />
+        <activity android:name=".ItemListActivity" />
+        <activity android:name=".laptop.LaptopListActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".tv.TelevisionActivity" />
+        <activity android:name=".phone.PhoneActivity" />
+        <activity android:name=".laptop.LaptopActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegsiterActivity" />
+        <activity android:name=".AddItemActivity" />
+    </application>
+
+</manifest>
